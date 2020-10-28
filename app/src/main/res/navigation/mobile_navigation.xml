@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragmentInicio">
+
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="utp.edu.myapplication.Fragments.FragmentInicio"
+        android:label="Fragmento Inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragmentConsulta"
+        android:name="utp.edu.myapplication.Fragments.FragmentConsulta"
+        android:label="fragment_consulta"
+        tools:layout="@layout/fragment_consulta" />
+    <fragment
+        android:id="@+id/fragmentListado"
+        android:name="utp.edu.myapplication.Fragments.FragmentListado"
+        android:label="fragment_listado"
+        tools:layout="@layout/fragment_listado" />
+</navigation>
